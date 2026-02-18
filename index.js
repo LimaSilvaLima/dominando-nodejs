@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Olá! Este projeto está usando ES Modules (import).');
+  res.send('<h1>Olá, mundo! Este projeto está usando ES Modules (import).</h1>');
 });
 
 app.listen(port, () => {
